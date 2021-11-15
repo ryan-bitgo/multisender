@@ -1,0 +1,45 @@
+{
+  "name": "@bitgo/multisender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./**/*.ts{,x}",
+    "lint:fix": "eslint --fix ./**/*.ts{,x}"
+  },
+  "keywords": [],
+  "author": "Ryan",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.2",
+    "csv-parse": "^4.16.3",
+    "dotenv": "^10.0.0",
+    "ethereumjs-util": "^7.1.3",
+    "fs-jetpack": "^4.2.0",
+    "hardhat": "^2.6.8",
+    "joi": "^17.4.2"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "@openzeppelin/hardhat-upgrades": "^1.12.0",
+    "@typechain/ethers-v5": "^8.0.2",
+    "@typechain/hardhat": "^3.0.0",
+    "@types/dotenv": "^8.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.1",
+    "prettier": "^2.4.1",
+    "typechain": "^6.0.2",
+    "typescript": "^4.4.4"
+  }
+}
